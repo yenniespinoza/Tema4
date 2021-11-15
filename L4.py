@@ -7,7 +7,7 @@ from scipy import stats
 import matplotlib.pyplot as plt
 
 # Variables aleatorias A y Z
-vaA = stats.norm(5, np.sqrt(0.2))
+vaC = stats.norm(5, np.sqrt(0.2))
 vaZ = stats.uniform(0, np.pi/2)
 vaT= stats.uniform(2*np.pi*59.1, 2*np.pi*60.1)
 
